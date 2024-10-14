@@ -1,0 +1,22 @@
+{
+  "name": "library-seed",
+  "version": "1.0.0",
+  "node_version": "v20.2.0",
+  "description": "A model for create a library,use rolldown",
+  "main": "index.ts",
+  "scripts": {
+    "build": "npx rolldown --config rolldown.config.mjs",
+    "test-w2n": "open -a 'Google Chrome' test/client/network/test.html"
+  },
+  "author": "ShanHe",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "mocha": "^10.7.3",
+    "rolldown": "^0.13.2"
+  },
+  "dependencies": {
+    "@types/ramda": "^0.30.2",
+    "ramda": "^0.30.1"
+  }
+}
